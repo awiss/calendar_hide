@@ -5,14 +5,13 @@
   "version": "0.0.1",
 
   // Recommended
-  "default_locale": "en",
   "description": "Lets you hide google calendar events",
 
-  "content_scipts": [
+  "content_scripts": [
   	{
   		"matches": ["https://www.google.com/calendar/*"],
   		"css": ["style.css"],
   		"js": ["dependencies/jquery.js", "calendar.js"]
   	}
-  ],
+  ]
 }
