@@ -14,5 +14,5 @@
   		"css": ["style.css"],
   		"js": ["dependencies/jquery.js", "calendar.js"]
   	}
-  ],
+  ]
 }
