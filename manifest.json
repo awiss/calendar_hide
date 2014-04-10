@@ -10,8 +10,8 @@
   "content_scripts": [
   	{
   		"matches": ["https://www.google.com/calendar/*"],
-  		"css": ["style.css"],
-  		"js": ["dependencies/jquery.js", "calendar.js"]
+  		"css": ["css/style.css"],
+  		"js": ["dependencies/jquery.js", "js/calendar.js"]
   	}
   ]
 }
